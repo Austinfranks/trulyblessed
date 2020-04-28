@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- SWIPER.JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
+    <!-- SWIPER.JS -->
+
+    <title>Truly Blessed</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <nav class="navbar">
+          <ul class="navbarnav">
+            <li class="logo">
+              <a href="index.html" class="navlink">
+                <h1>Truly Blessed</h1>
+              </a>
+            </li>
+
+            <li class="navitem">
+              <a href="/pages/mens/index.html" class="navlink">
+                <i class="fas fa-male"></i>
+                <span class="linktext">Mens</span>
+              </a>
+            </li>
+
+            <li class="navitem">
+              <a href="/pages/womens/index.html" class="navlink">
+                <i class="fas fa-female"></i>
+                <span class="linktext">Womens</span>
+              </a>
+            </li>
+
+            <li class="navitem">
+              <a href="/pages/cart/index.html" class="navlink">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="linktext">Cart</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+
+    <section>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide1"></div>
+          <div class="swiper-slide slide2"></div>
+          <div class="swiper-slide slide3"></div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+      </div>
+    </section>
+
+    <section class="information">
+      <h2 class="pagetitle">
+        Custom Apparel created by
+        <a
+          href="https://www.instagram.com/itisandyy/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Andy B.</a
+        >
+      </h2>
+      <p class="infotext">
+        Here at Truly Blessed every piece is custom made, and one of a kind
+      </p>
+      <p class="infotext">DM me on instagram for your own pieces today</p>
+    </section>
+
+    <h1 class="newreleasestext">New Releases !!!</h1>
+
+    <section class="newreleases">
+      <div class="newitems">Coming soon 1...</div>
+      <div class="newitems">Coming soon 2...</div>
+      <div class="newitems">Coming soon 3...</div>
+      <div class="newitems">Coming soon 4...</div>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/3b374015a9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- SWIPER.JS -->
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+      let swiper = new Swiper(".swiper-container", {
+        effect: "cube",
+        grabCursor: true,
+        cubeEffect: {
+          shadow: false,
+          slideShadow: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!-- SWIPER.JS -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
